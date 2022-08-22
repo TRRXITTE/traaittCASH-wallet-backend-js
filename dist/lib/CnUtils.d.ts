@@ -1,4 +1,4 @@
-import { CryptoNote } from 'traaittplatform-utils';
+import { CryptoNote } from '@trrxitte/traaittcash-utils';
 import { Config } from './Config';
 /**
  * This needs to be a function, rather than a default export, since our config

@@ -3,6 +3,7 @@
 //
 // Please see the included LICENSE file for more information.
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.MAX_OUTPUT_SIZE_CLIENT = exports.FUSION_TX_MIN_IN_OUT_COUNT_RATIO = exports.MAX_FUSION_TX_SIZE = exports.FUSION_TX_MIN_INPUT_COUNT = exports.CRYPTONOTE_COINBASE_BLOB_RESERVED_SIZE = exports.MAX_BLOCK_SIZE_INITIAL = exports.MAX_BLOCK_SIZE_GROWTH_SPEED_DENOMINATOR = exports.MAX_BLOCK_SIZE_GROWTH_SPEED_NUMERATOR = exports.PRETTY_AMOUNTS = exports.MAX_BLOCK_NUMBER = exports.MAXIMUM_SYNC_QUEUE_SIZE = exports.GLOBAL_INDEXES_OBSCURITY = exports.BLOCK_HASH_CHECKPOINTS_INTERVAL = exports.LAST_KNOWN_BLOCK_HASHES_SIZE = exports.IS_CORRECT_PASSWORD_IDENTIFIER = exports.IS_A_WALLET_IDENTIFIER = exports.PBKDF2_ITERATIONS = exports.WALLET_FILE_FORMAT_VERSION = void 0;
 /**
  * What version of the file format are we on (to make it easier to
  * upgrade the wallet format in the future)

@@ -3,6 +3,7 @@
 //
 // Please see the included LICENSE file for more information.
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.openWallet = void 0;
 const fs = require("fs");
 const WalletError_1 = require("./WalletError");
 const WalletEncryption_1 = require("./WalletEncryption");

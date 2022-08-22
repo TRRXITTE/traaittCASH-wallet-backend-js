@@ -3,6 +3,7 @@
 //
 // Please see the included LICENSE file for more information.
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.SubWallets = void 0;
 const CnUtils_1 = require("./CnUtils");
 const JsonSerialization_1 = require("./JsonSerialization");
 const SubWallet_1 = require("./SubWallet");

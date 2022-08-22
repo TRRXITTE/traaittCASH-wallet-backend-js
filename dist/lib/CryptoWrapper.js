@@ -9,6 +9,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.underivePublicKey = exports.generateKeyImage = exports.generateKeyImagePrimitive = exports.generateKeyDerivation = void 0;
 const CnUtils_1 = require("./CnUtils");
 const nullKey = '0'.repeat(64);
 function generateKeyDerivation(transactionPublicKey, privateViewKey, config) {

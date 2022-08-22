@@ -232,9 +232,9 @@ export declare class WalletBackend extends EventEmitter {
      *
      * Example:
      * ```javascript
-     * const WB = require('traaittplatform-wallet-backend');
+     * const WB = require('@trrxitte/traaittcash-wallet-backend');
      *
-     * const daemon = new WB.Daemon('127.0.0.1', 24496);
+     * const daemon = new WB.Daemon('127.0.0.1', 14486);
      *
      * const [wallet, error] = WB.WalletBackend.openWalletFromFile(daemon, 'mywallet.wallet', 'hunter2');
      *
@@ -257,9 +257,9 @@ export declare class WalletBackend extends EventEmitter {
      *
      * Example:
      * ```javascript
-     * const WB = require('traaittplatform-wallet-backend');
+     * const WB = require('@trrxitte/traaittcash-wallet-backend');
      *
-     * const daemon = new WB.Daemon('127.0.0.1', 24496);
+     * const daemon = new WB.Daemon('127.0.0.1', 14486);
      * const data = 'ENCRYPTED_WALLET_STRING';
      *
      * const [wallet, error] = WB.WalletBackend.openWalletFromEncryptedString(daemon, data, 'hunter2');
@@ -281,9 +281,9 @@ export declare class WalletBackend extends EventEmitter {
      *
      * Example:
      * ```javascript
-     * const WB = require('traaittplatform-wallet-backend');
+     * const WB = require('@trrxitte/traaittcash-wallet-backend');
      *
-     * const daemon = new WB.Daemon('127.0.0.1', 24496);
+     * const daemon = new WB.Daemon('127.0.0.1', 14486);
      *
      * const [wallet, err] = WB.WalletBackend.loadWalletFromJSON(daemon, json);
      *
@@ -305,9 +305,9 @@ export declare class WalletBackend extends EventEmitter {
      *
      * Example:
      * ```javascript
-     * const WB = require('traaittplatform-wallet-backend');
+     * const WB = require('@trrxitte/traaittcash-wallet-backend');
      *
-     * const daemon = new WB.Daemon('127.0.0.1', 24496);
+     * const daemon = new WB.Daemon('127.0.0.1', 14486);
      *
      * const seed = 'necklace went vials phone both haunted either eskimos ' +
      *              'dialect civilian western dabbing snout rustled balding ' +
@@ -335,9 +335,9 @@ export declare class WalletBackend extends EventEmitter {
      *
      * Example:
      * ```javascript
-     * const WB = require('traaittplatform-wallet-backend');
+     * const WB = require('@trrxitte/traaittcash-wallet-backend');
      *
-     * const daemon = new WB.Daemon('127.0.0.1', 24496);
+     * const daemon = new WB.Daemon('127.0.0.1', 14486);
      *
      * const privateViewKey = 'ce4c27d5b135dc5310669b35e53efc9d50d92438f00c76442adf8c85f73f1a01';
      * const privateSpendKey = 'f1b1e9a6f56241594ddabb243cdb39355a8b4a1a1c0343dde36f3b57835fe607';
@@ -370,9 +370,9 @@ export declare class WalletBackend extends EventEmitter {
      *
      * Example:
      * ```javascript
-     * const WB = require('traaittplatform-wallet-backend');
+     * const WB = require('@trrxitte/traaittcash-wallet-backend');
      *
-     * const daemon = new WB.Daemon('127.0.0.1', 24496);
+     * const daemon = new WB.Daemon('127.0.0.1', 14486);
      *
      * const privateViewKey = 'ce4c27d5b135dc5310669b35e53efc9d50d92438f00c76442adf8c85f73f1a01';
      *
@@ -400,9 +400,9 @@ export declare class WalletBackend extends EventEmitter {
      *
      * Example:
      * ```javascript
-     * const WB = require('traaittplatform-wallet-backend');
+     * const WB = require('@trrxitte/traaittcash-wallet-backend');
      *
-     * const daemon = new WB.Daemon('127.0.0.1', 24496);
+     * const daemon = new WB.Daemon('127.0.0.1', 14486);
      *
      * const wallet = WB.WalletBackend.createWallet(daemon);
      * ```

@@ -6,13 +6,13 @@ import { MixinLimits } from './MixinLimits';
  */
 export interface IConfig {
     /**
-     * The amount of decimal places your coin has, e.g. traaittPlatform has two
+     * The amount of decimal places your coin has, e.g. traaittCASH has two
      * decimals
      */
     decimalPlaces?: number;
     /**
      * The address prefix your coin uses - you can find this in CryptoNoteConfig.h.
-     * In traaittPlatform, this converts to TR
+     * In traaittCASH, this converts to cash
      */
     addressPrefix?: number;
     /**
@@ -149,13 +149,13 @@ export interface IConfig {
  */
 export declare class Config implements IConfig {
     /**
-     * The amount of decimal places your coin has, e.g. traaittPlatform has two
+     * The amount of decimal places your coin has, e.g. traaittCASH has eight
      * decimals
      */
     decimalPlaces: number;
     /**
      * The address prefix your coin uses - you can find this in CryptoNoteConfig.h.
-     * In traaittPlatform, this converts to TR
+     * In traaittCASH, this converts to cash
      */
     addressPrefix: number;
     /**

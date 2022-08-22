@@ -12,6 +12,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.Daemon = void 0;
 const _ = require("lodash");
 const request = require("request-promise-native");
 const events_1 = require("events");
@@ -31,7 +32,7 @@ class Daemon extends events_1.EventEmitter {
      * @param host The host to access the API on. Can be an IP, or a URL, for
      *             example, 1.1.1.1, or blockapi.turtlepay.io
      *
-     * @param port The port to access the API on. Normally 24496 for a traaittPlatform
+     * @param port The port to access the API on. Normally 14486 for a traaittCASH
      *             daemon, 80 for a HTTP api, or 443 for a HTTPS api.
      *
      * @param isCacheApi You can optionally specify whether this API is a

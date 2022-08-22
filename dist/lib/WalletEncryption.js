@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.WalletEncryption = void 0;
 const crypto = require("crypto");
 const pbkdf2 = require("pbkdf2");
 const Constants_1 = require("./Constants");

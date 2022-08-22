@@ -77,7 +77,7 @@ export declare class Daemon extends EventEmitter implements IDaemon {
      * @param host The host to access the API on. Can be an IP, or a URL, for
      *             example, 1.1.1.1, or blockapi.turtlepay.io
      *
-     * @param port The port to access the API on. Normally 24496 for a traaittPlatform
+     * @param port The port to access the API on. Normally 14486 for a traaittCASH
      *             daemon, 80 for a HTTP api, or 443 for a HTTPS api.
      *
      * @param isCacheApi You can optionally specify whether this API is a

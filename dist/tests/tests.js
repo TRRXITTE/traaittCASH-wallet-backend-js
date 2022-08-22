@@ -261,7 +261,7 @@ function roundTrip(wallet, daemon, password) {
         return test1 && test2 && test3 && test4 && test5 && test6;
     }), 'Testing isValidMnemonic', 'isValidMnemonic works', 'isValidMnemonic doesn\'t work!');
     yield tester.test(() => __awaiter(void 0, void 0, void 0, function* () {
-        const daemon2 = new index_1.Daemon('127.0.0.1', 24496);
+        const daemon2 = new index_1.Daemon('127.0.0.1', 14486);
         const wallet = index_1.WalletBackend.createWallet(daemon2);
         yield wallet.start();
         const daemon3 = new index_1.Daemon(daemonAddress, daemonPort);

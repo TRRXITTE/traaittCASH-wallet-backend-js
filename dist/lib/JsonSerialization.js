@@ -3,6 +3,7 @@
 //
 // Please see the included LICENSE file for more information.
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.transfersToVector = exports.txPrivateKeysToVector = void 0;
 function txPrivateKeysToVector(txPrivateKeys) {
     const arr = [];
     for (const [hash, privateKey] of txPrivateKeys) {

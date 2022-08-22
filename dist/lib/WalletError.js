@@ -3,6 +3,7 @@
 //
 // Please see the included LICENSE file for more information.
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.SUCCESS = exports.WalletErrorCode = exports.WalletError = void 0;
 /**
  * Stores a programmatic error code and an error message
  */

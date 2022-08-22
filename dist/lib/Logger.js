@@ -3,6 +3,7 @@
 //
 // Please see the included LICENSE file for more information.
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.logger = exports.LogCategory = exports.LogLevel = void 0;
 class Logger {
     constructor(level, callback) {
         /**

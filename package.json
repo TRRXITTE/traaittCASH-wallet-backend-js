@@ -1,23 +1,23 @@
 {
-  "name": "traaittcash-wallet-backend",
+  "name": "@trrxitte/traaittcash-wallet-backend",
   "version": "0.0.1",
-  "description": "",
+  "description": "![image](https://user-images.githubusercontent.com/34389545/35821974-62e0e25c-0a70-11e8-87dd-2cfffeb6ed47.png)",
   "main": "dist/lib/index.js",
   "types": "dist/lib/index.d.ts",
   "scripts": {
     "prepublish": "npm run-script build",
-    "build": "./node_modules/.bin/tsc",
+    "build": "tsc",
     "test": "npm run-script build && node dist/tests/tests.js",
     "test-all": "npm run-script build && node dist/tests/tests.js --do-performance-tests",
-    "style": "./node_modules/.bin/tslint -c tslint.json 'lib/**/*.ts'",
-    "docs": "./node_modules/.bin/typedoc --options ./typedoc.js ./lib/; touch docs/.nojekyll",
+    "style": "tslint -c tslint.json 'lib/**/*.ts'",
+    "docs": "typedoc --options ./typedoc.js ./lib/; touch docs/.nojekyll",
     "prepare": "npm run-script build"
   },
   "files": [
     "dist/lib/*"
   ],
   "keywords": [],
-  "author": "",
+  "author": "TRRXITTE Int., incorporate",
   "license": "AGPL-3.0",
   "dependencies": {
     "lodash": "^4.17.15",
@@ -39,5 +39,19 @@
     "tslint": "^5.20.1",
     "typedoc": "^0.15.1",
     "typedoc-plugin-no-inherit": "^1.1.10"
-  }
+  },
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "lib": "lib",
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TRRXITTE/traaittCASH-wallet-backend-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TRRXITTE/traaittCASH-wallet-backend-js/issues"
+  },
+  "homepage": "https://github.com/TRRXITTE/traaittCASH-wallet-backend-js#readme"
 }

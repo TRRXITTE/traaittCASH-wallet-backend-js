@@ -3,6 +3,7 @@
 //
 // Please see the included LICENSE file for more information.
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.MergeConfig = exports.Config = void 0;
 const MixinLimits_1 = require("./MixinLimits");
 const version = require('../../package.json').version;
 /**
@@ -13,15 +14,15 @@ const version = require('../../package.json').version;
 class Config {
     constructor() {
         /**
-         * The amount of decimal places your coin has, e.g. traaittPlatform has two
+         * The amount of decimal places your coin has, e.g. traaittCASH has eight
          * decimals
          */
         this.decimalPlaces = 8;
         /**
          * The address prefix your coin uses - you can find this in CryptoNoteConfig.h.
-         * In traaittPlatform, this converts to TR
+         * In traaittCASH, this converts to cash
          */
-        this.addressPrefix = 461586806;
+        this.addressPrefix = 925524;
         /**
          * Request timeout for daemon operations in milliseconds
          */
@@ -29,7 +30,7 @@ class Config {
         /**
          * The block time of your coin, in seconds
          */
-        this.blockTargetTime = 644;
+        this.blockTargetTime = 144;
         /**
          * How often to process blocks, in millseconds
          */
@@ -65,23 +66,23 @@ class Config {
          * Mapping of height to mixin maximum and mixin minimum
          */
         this.mixinLimits = new MixinLimits_1.MixinLimits([
-            /* Height: 440,000, minMixin: 0, maxMixin: 100, defaultMixin: 3 */
-            new MixinLimits_1.MixinLimit(7000000, 0, 100, 10),
+            /* Height: 440,000, minMixin: 0, maxMixin: 10, defaultMixin: 3 */
+            new MixinLimits_1.MixinLimit(17000000, 3, 10, 3),
             /* At height of 620000, static mixin of 7 */
-            new MixinLimits_1.MixinLimit(23000000, 7),
+            new MixinLimits_1.MixinLimit(43000000, 5, 10, 10),
             /* At height of 800000, static mixin of 3 */
-            new MixinLimits_1.MixinLimit(47000000, 3),
+            new MixinLimits_1.MixinLimit(68000000, 8),
         ], 3 /* Default mixin of 3 before block 440,000 */);
         /**
          * The length of a standard address for your coin
          */
-        this.standardAddressLength = 101;
+        this.standardAddressLength = 98;
         /* The length of an integrated address for your coin - It's the same as
            a normal address, but there is a paymentID included in there - since
            payment ID's are 64 chars, and base58 encoding is done by encoding
            chunks of 8 chars at once into blocks of 11 chars, we can calculate
            this automatically */
-        this.integratedAddressLength = 101 + ((64 * 11) / 8);
+        this.integratedAddressLength = 98 + ((64 * 11) / 8);
         /**
          * A replacement function for the JS/C++ underivePublicKey.
          */

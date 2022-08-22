@@ -3,7 +3,8 @@
 //
 // Please see the included LICENSE file for more information.
 Object.defineProperty(exports, "__esModule", { value: true });
-const traaittplatform_utils_1 = require("traaittplatform-utils");
+exports.CryptoUtils = void 0;
+const traaittcash_utils_1 = require("@trrxitte/traaittcash-utils");
 /**
  * This needs to be a function, rather than a default export, since our config
  * can change when a user calls createWallet() with a non default config.
@@ -11,7 +12,7 @@ const traaittplatform_utils_1 = require("traaittplatform-utils");
  * config will never update.
  */
 function CryptoUtils(config) {
-    return new traaittplatform_utils_1.CryptoNote({
+    return new traaittcash_utils_1.CryptoNote({
         addressPrefix: config.addressPrefix,
         cnFastHash: config.cnFastHash,
         coinUnitPlaces: config.decimalPlaces,

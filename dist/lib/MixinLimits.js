@@ -3,6 +3,7 @@
 //
 // Please see the included LICENSE file for more information.
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.MixinLimits = exports.MixinLimit = void 0;
 const _ = require("lodash");
 /**
  * @param height        Height this mixin limit becomes active at

@@ -12,6 +12,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.SubWallet = void 0;
 const Logger_1 = require("./Logger");
 const Types_1 = require("./Types");
 const Utilities_1 = require("./Utilities");
