@@ -1,10 +1,10 @@
-![image](https://user-images.githubusercontent.com/34389545/35821974-62e0e25c-0a70-11e8-87dd-2cfffeb6ed47.png)
+![image](https://github.com/TRRXITTE/traaittCASH/blob/master/docs/XTCASH.png)
 
 #### Master Build Status
 [![Build Status](https://travis-ci.org/trrxitte/traaittcash-wallet-backend-js.svg?branch=master)](https://travis-ci.org/trrxitte/traaittcash-wallet-backend-js)
 
 #### NPM
-[![NPM](https://nodei.co/npm/traaittcash-wallet-backend.png?compact=true)](https://npmjs.org/package/traaittcash-wallet-backend)
+[![NPM](https://nodei.co/npm/@trrxitte/traaittcash-wallet-backend.png?compact=true)](https://npmjs.org/package/traaittcash-wallet-backend)
 
 #### Github
 
