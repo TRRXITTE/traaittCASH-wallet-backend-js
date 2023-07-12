@@ -248,7 +248,7 @@ export class Config implements IConfig {
     /**
      * Your coins 'ticker', generally used to refer to the coin, i.e. 123 TR
      */
-    public ticker: string = 'ETRX';
+    public ticker: string = 'XTCASH';
 
     /**
      * Most people haven't mined any blocks, so lets not waste time scanning
@@ -269,11 +269,11 @@ export class Config implements IConfig {
         new MixinLimit(17000000, 3, 10, 3),
 
         /* At height of 620000, static mixin of 7 */
-        new MixinLimit(43000000, 5, 10, 10),
+        new MixinLimit(43000000, 3, 10, 10),
 
         /* At height of 800000, static mixin of 3 */
-        new MixinLimit(68000000, 8),
-    ], 3 /* Default mixin of 3 before block 440,000 */);
+        new MixinLimit(68000000, 15),
+    ], 8 /* Default mixin of 3 before block 440,000 */);
 
     /**
      * The length of a standard address for your coin
