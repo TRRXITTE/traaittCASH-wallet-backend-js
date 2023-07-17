@@ -3,7 +3,6 @@
 //
 // Please see the included LICENSE file for more information.
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.CryptoUtils = void 0;
 const traaittcash_utils_1 = require("@trrxitte/traaittcash-utils");
 /**
  * This needs to be a function, rather than a default export, since our config

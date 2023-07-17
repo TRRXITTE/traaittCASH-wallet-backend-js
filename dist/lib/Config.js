@@ -3,7 +3,6 @@
 //
 // Please see the included LICENSE file for more information.
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.MergeConfig = exports.Config = void 0;
 const MixinLimits_1 = require("./MixinLimits");
 const version = require('../../package.json').version;
 /**
@@ -67,12 +66,12 @@ class Config {
          */
         this.mixinLimits = new MixinLimits_1.MixinLimits([
             /* Height: 440,000, minMixin: 0, maxMixin: 10, defaultMixin: 3 */
-            new MixinLimits_1.MixinLimit(17000000, 3, 10, 3),
+            new MixinLimits_1.MixinLimit(1000000, 0, 10, 10),
             /* At height of 620000, static mixin of 7 */
-            new MixinLimits_1.MixinLimit(43000000, 3, 10, 10),
+            new MixinLimits_1.MixinLimit(2400000, 0, 15, 15),
             /* At height of 800000, static mixin of 3 */
-            new MixinLimits_1.MixinLimit(68000000, 15),
-        ], 8 /* Default mixin of 3 before block 440,000 */);
+            new MixinLimits_1.MixinLimit(45000000, 0, 18, 18),
+        ], 18 /* Default mixin of 3 before block 440,000 */);
         /**
          * The length of a standard address for your coin
          */

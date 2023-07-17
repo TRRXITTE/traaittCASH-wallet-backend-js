@@ -3,7 +3,6 @@
 //
 // Please see the included LICENSE file for more information.
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.DaemonType = exports.TopBlock = exports.TxInputAndOwner = exports.TransactionData = exports.KeyInput = exports.KeyOutput = exports.UnconfirmedInput = exports.TransactionInput = exports.Transaction = exports.RawTransaction = exports.RawCoinbaseTransaction = exports.Block = void 0;
 const JsonSerialization_1 = require("./JsonSerialization");
 /**
  * @hidden

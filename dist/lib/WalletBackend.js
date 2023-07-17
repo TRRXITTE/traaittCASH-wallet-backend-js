@@ -12,7 +12,6 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.WalletBackend = void 0;
 const events_1 = require("events");
 const fs = require("fs");
 const _ = require("lodash");

@@ -12,7 +12,6 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.WalletSynchronizer = void 0;
 const _ = require("lodash");
 const sizeof = require('object-sizeof');
 const events_1 = require("events");

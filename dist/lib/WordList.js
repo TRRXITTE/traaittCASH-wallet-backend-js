@@ -3,7 +3,6 @@
 //
 // Please see the included LICENSE file for more information.
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.English = void 0;
 exports.English = [
     'abbey',
     'abducts',
