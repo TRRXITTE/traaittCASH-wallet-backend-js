@@ -259,7 +259,7 @@ export class Config implements IConfig {
     /**
      * The minimum fee allowed for transactions, in ATOMIC units
      */
-    public minimumFee: number = 10;
+    public minimumFee: number = 1000;
 
     /**
      * Mapping of height to mixin maximum and mixin minimum

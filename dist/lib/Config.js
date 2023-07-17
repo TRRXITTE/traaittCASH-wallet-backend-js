@@ -60,7 +60,7 @@ class Config {
         /**
          * The minimum fee allowed for transactions, in ATOMIC units
          */
-        this.minimumFee = 10;
+        this.minimumFee = 1000;
         /**
          * Mapping of height to mixin maximum and mixin minimum
          */
